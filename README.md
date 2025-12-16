@@ -1,6 +1,6 @@
 # AWS VPC with Public & Private Subnets (Terraform)
-refer 1st ec2.tf file
-video ref and credits : https://www.youtube.com/watch?v=xnRRJw_sI8s
+refer 1st ec2.tf file  
+video ref and credits : https://www.youtube.com/watch?v=xnRRJw_sI8s  
 This repository provisions a basic AWS network on **ap-south-1 (Mumbai)** with:
 
 - One **VPC** (`10.0.0.0/16`)
