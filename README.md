@@ -39,9 +39,9 @@ This repository provisions a basic AWS network on **ap-south-1 (Mumbai)** with:
 
 ## Files
 
-- `main.tf` – core resources (VPC, subnets, IGW, NAT GW, route tables, SG, EC2)
-- `variables.tf` – input variables (e.g., `access_key`, `secret_key`, `ami_id`)
-- `outputs.tf` – useful outputs (public IPs / instance IDs)
+- `main.tf` - core resources (VPC, subnets, IGW, NAT GW, route tables, SG, EC2)
+- `variables.tf` - input variables and description for below
+- `terraform.tfvars` - add access_key, secret_key and ami_id
 
 You can also keep everything in a single `.tf` for quick tests, but splitting improves maintainability.
 
@@ -49,9 +49,6 @@ You can also keep everything in a single `.tf` for quick tests, but splitting im
 
 ## Prerequisites
 
-- Terraform ≥ 1.3
-- AWS credentials with permissions to create VPC, subnets, IGW, EIP, NAT GW, EC2
-- An **AMI ID** reachable in `ap-south-1` (e.g., Amazon Linux 2)
 
 Set credentials via environment variables (recommended):
 
